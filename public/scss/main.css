@@ -1,0 +1,313 @@
+.container {
+  max-width: 1250px !important;
+  padding: 0 15px !important;
+}
+
+body {
+  background-color: #080e37;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background: transparent;
+}
+.navbar button {
+  color: #fff;
+}
+
+.sect-marquee .container-fluid {
+  overflow: hidden;
+  background-color: #FFF349;
+}
+.sect-marquee .container-fluid p {
+  padding: 5px 0;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 30s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.hero-banner .container {
+  padding: 17px 15px !important;
+}
+
+.sect-hero-backUp {
+  background: url("../img/bg-2.jpg") center no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.sect-hero-backUp .container .text-hero {
+  color: #fff;
+  width: 65%;
+}
+.sect-hero-backUp .container .text-hero h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.sect-hero-backUp .container .text-hero h1 span {
+  font-size: 65px;
+  text-shadow: 2px 2px 2px rgba(255, 0, 82, 0.9);
+  font-weight: 700;
+}
+.sect-hero-backUp .container .text-hero p {
+  margin-bottom: 40px;
+}
+.sect-hero-backUp .container .text-hero a {
+  padding: 12px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: -webkit-linear-gradient(0deg, #e2906e 0%, #e83a99 100%);
+  box-shadow: 2.419px 9.703px 12.48px 0.52px rgba(232, 58, 153, 0.5);
+  transition: all 0.3s;
+  border-radius: 25px;
+  color: #fff;
+}
+.sect-hero-backUp .container .text-hero a:hover {
+  transform: all 0.3s;
+}
+
+.sect-2-home {
+  padding-bottom: 70px;
+}
+.sect-2-home .container .box-logo {
+  background: linear-gradient(90deg, rgba(43, 11, 126, 0.82) 0%, rgb(155, 87, 223) 100%);
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 17px;
+}
+.sect-2-home .container .box-logo img {
+  height: 70px;
+}
+.sect-2-home .container .items-btn {
+  margin-bottom: 17px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.sect-2-home .container .items-btn a {
+  background-color: rgba(250, 240, 215, 0.4);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #faf0d6;
+  padding: 7px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.sect-2-home .container .title {
+  margin-bottom: 17px;
+  color: #fff;
+  border-radius: 5px;
+  background-image: linear-gradient(89deg, #5f16a9 0%, #cf15f8 100%);
+}
+.sect-2-home .container .title h1 {
+  padding: 8px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+.sect-2-home .container .date-now p {
+  color: #FAF0D7;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.sect-2-home-backUp {
+  padding: 80px 0;
+}
+.sect-2-home-backUp .container .row img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sect-2-home-backUp .container .row .items-text-right {
+  color: #fff;
+}
+.sect-2-home-backUp .container .row .items-text-right h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px rgba(255, 0, 82, 0.9);
+}
+.sect-2-home-backUp .container .row .items-text-right p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.sect-2-home-backUp .container .row .items-text-right .item-desc {
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.sect-2-home-backUp .container .row .items-text-right .item-desc .number h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  font-size: 40px;
+  font-weight: 700;
+  width: 70px;
+  font-size: 25px;
+  background-color: #ff0052;
+  line-height: 60px;
+  border-radius: 50%;
+}
+.sect-2-home-backUp .container .row .items-text-right .item-desc .text h1 {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+.sect-2-home-backUp .container .row .items-text-right .item-desc .text p {
+  margin-bottom: 25px;
+}
+
+.sect-3-home {
+  background: url("../img/nuts-img-4-copyright.jpg") no-repeat center;
+  background-size: cover;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+}
+.sect-3-home .container .text {
+  color: #fff;
+}
+.sect-3-home .container .text h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.sect-3-home .container hr {
+  color: #fff;
+  margin: 40px 0;
+}
+.sect-3-home .container .items-limits {
+  margin-bottom: 17px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.sect-3-home .container .items-limits .support {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.sect-3-home .container .items-limits .support img {
+  height: 30px;
+  height: 30px;
+}
+.sect-3-home .container .items-limits .support h1 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.sect-4-home {
+  padding: 80px 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.sect-4-home .bg-game {
+  right: 0;
+  top: -150px;
+  position: absolute;
+  z-index: -9999;
+}
+.sect-4-home .container .title {
+  margin-bottom: 30px;
+}
+.sect-4-home .container .title h1 {
+  text-shadow: 2px 2px 2px rgba(255, 0, 82, 0.9);
+  font-weight: 600;
+  font-size: 45px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.sect-4-home .container .items-sorting {
+  margin-bottom: 20px;
+}
+.sect-4-home .container .items-sorting .btn-search {
+  margin-bottom: 17px;
+}
+.sect-4-home .container .items-sorting .input-sort-by {
+  position: relative;
+}
+.sect-4-home .container .items-sorting .input-sort-by p {
+  margin-bottom: 0;
+}
+.sect-4-home .container .items-sorting .input-sort-by .form-select {
+  position: relative;
+}
+.sect-4-home .container .row .card-games .card-game-images img {
+  border: 10px solid #620edf;
+  box-shadow: 0px 10px 199px 0px rgba(26, 15, 63, 0.5);
+  border-radius: 10px;
+  width: 100%;
+}
+.sect-4-home .container .row .card-games .card-game-content {
+  margin: -70px 15px 0 15px;
+  position: relative;
+  padding: 15px;
+  background-color: #5e72eb;
+  border-radius: 20px;
+  z-index: 10;
+}
+.sect-4-home .container .row .card-games .card-game-content .wrap-content {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin-bottom: 10px;
+}
+.sect-4-home .container .row .card-games .card-game-content .wrap-content .content-left .card-image-content img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  box-shadow: 0px 12px 13px 0px rgba(26, 15, 63, 0.46);
+}
+.sect-4-home .container .row .card-games .card-game-content .wrap-content .content-center {
+  color: #fff;
+}
+.sect-4-home .container .row .card-games .card-game-content .wrap-content .content-center h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sect-4-home .container .row .card-games .card-game-content .content-right {
+  background-image: linear-gradient(89deg, #5f16a9 0%, #cf15f8 100%);
+  border-radius: 20px;
+  width: 100px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 2px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.sect-4-home .container .row .card-games .card-game-content .content-right h5 {
+  margin-bottom: 0;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+.sect-4-home .container .row .card-games .card-game-content button {
+  background-image: linear-gradient(89deg, #5f16a9 0%, #cf15f8 100%);
+  color: #fff;
+  border-radius: 25px;
+  border: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */
